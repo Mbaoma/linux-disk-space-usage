@@ -6,7 +6,7 @@ Run the following commands to check how much space is left is left on your disk
 
 - Clone the repository
 ```bash
-
+git clone https://github.com/Mbaoma/linux-disk-space-usage.git
 ```
 
 - Make the script executable
