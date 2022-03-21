@@ -1,0 +1,12 @@
+#!/bin/bash
+
+serverName=$(hostname)
+
+ echo " This program shows you how much space is left on your machine"
+
+function diskUsage() {
+    echo "Current disk usage on $serverName is: "
+    echo ""
+    df -h 
+}
+diskUsage
